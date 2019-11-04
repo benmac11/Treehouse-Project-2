@@ -1,0 +1,268 @@
+body {
+    margin: 0;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.header {
+    background: whitesmoke;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 1008px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 1rem;
+    }
+}
+
+.name {
+    color: #323232;
+}
+
+@media (min-width: 1008px) {
+    .name {
+        margin-left: 2rem;
+    }
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #323232;
+}
+
+@media (min-width: 767px) {
+    .list {
+        flex-direction: row;
+        width: 350px;
+        margin-right: 1rem;
+    }
+}
+
+.link {
+    background: white;
+    height: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px 0;
+    text-decoration: none;
+    color: #323232;
+    font-weight: bold;
+}
+
+@media (min-width: 767px) {
+    .link {
+        background: none;
+        width: 100%;
+    }
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 767px) {
+    .profile {
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: initial;
+    }
+}
+
+@media (min-width: 1008px) {
+    .profile {
+        justify-content: space-between;
+        margin: 0 2rem;
+    }
+}
+
+.profile-image {
+    height: 110px;
+    width: 180px;
+    margin: 30px 0 10px 0;
+}
+
+@media (min-width: 767px) {
+    .profile-image {
+        margin: 1rem 0 2rem 0;
+        height: 130px;
+        width: 210px;
+    }
+}
+
+@media (min-width: 1008px) {
+    .profile-image {
+        height: 230px;
+        width: 400px;
+    }
+}
+
+.profile-message {
+    width: 300px;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 767px) {
+    .profile-message {
+        text-align: initial;
+        width: 500px;
+    }
+}
+
+@media (min-width: 1008px) {
+    .profile-message {
+        font-size: 20px;
+    }
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.portfolio-heading {
+    color: #323232;
+    font-weight: bolder;
+    margin: 2.5rem 0;
+}
+
+@media (min-width: 767px) {
+    .portfolio-card-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 767px) {
+    .portfolio-card {
+        margin: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.portfolio-image {
+    width: 300px;
+    height: 160px;
+}
+
+@media (min-width: 767px) {
+    .portfolio-image {
+        width: 320px;
+        height: 200px;
+    }
+}
+
+.portfolio-image-title {
+    margin: 1.5rem 0 1rem 0;
+}
+
+.portfolio-image-description {
+    width: 300px;
+    margin: 0 0 1.5rem 0;
+}
+
+.footer {
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-heading {
+    color: #323232;
+    margin: 3rem 0 0.75rem 0;
+}
+
+.footer-message {
+    width: 300px;
+}
+
+@media (min-width: 767px) {
+    .footer-message {
+        width: 410px;
+    }
+}
+
+.footer-div {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    border-top: solid lightgrey 1px;
+}
+
+@media (min-width: 767px) {
+    .footer-div {
+        width: 710px;
+    }
+}
+
+@media (min-width: 1008px) {
+    .footer-div {
+        width: 960px;
+    }
+}
+
+.footer-email {
+    margin-bottom: 3rem;
+}
+
+.footer-name {
+    color: #323232;
+}
+
+.footer-top {
+    margin: 1rem 0;
+    text-decoration: none;
+    color: #323232;
+}
+
+@media (min-width: 767px) {
+    .footer-top {
+        display: none;
+    }
+}
+
+.footer-link-wrap {
+    display: none;
+}
+
+@media (min-width: 767px) {
+    .footer-link-wrap {
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.footer-link {
+    display: none;
+}
+
+@media (min-width: 767px) {
+    .footer-link {
+        display: block;
+        text-decoration: none;
+        color: #323232;
+        font-size: 14px;
+    }
+}
